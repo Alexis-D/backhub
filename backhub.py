@@ -55,7 +55,7 @@ if __name__ == '__main__':
                         help='Which type of repos needs to be cloned.')
     parser.add_argument('--https', default=True, action='store_false',
                         dest='ssh',
-                        help='Clone via the https (ssh by default).')
+                        help='Clone via https (ssh by default).')
     parser.add_argument('-d', '--directory', default='.',
                         help='In which directory the repos should be cloned '
                         '(. by default).')

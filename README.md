@@ -24,7 +24,7 @@ Where **dir** is the directory in which you want to clone your repos. If you wan
       -p PASSWD, --pass PASSWD
       -t {all,owner,public,private,member}, --type {all,owner,public,private,member}
                             Which type of repos needs to be cloned.
-      --https               Clone via the https (ssh by default).
+      --https               Clone via https (ssh by default).
       -d DIRECTORY, --directory DIRECTORY
                             In which directory the repos should be cloned (. by
                             default).
